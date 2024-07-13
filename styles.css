@@ -1,0 +1,41 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background: linear-gradient(to bottom right, red, green, white);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-image: url('assets/images/elephantnew.jpg'); /* Replace with your elephant background image path */
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-family: 'Italian Font', serif; /* Replace with actual Italian font if available */
+}
+
+#members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.member {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#google-pay-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
